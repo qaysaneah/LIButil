@@ -1,0 +1,474 @@
+Stack Allocation = 2048 bytes
+
+ Start  Stop   Length Name                   Class
+ 00000H 00672H 00673H LIBUTIL_TEXT           CODE 16-bit
+               at offset 00000H 00673H bytes from BUILD\LIBUTIL.obj (z:\mytools\libutil\src\libutil.c)
+
+ 00674H 0256BH 01EF8H _TEXT                  CODE 16-bit
+               at offset 00000H 0010CH bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0.asm)
+               at offset 0010CH 00024H bytes from C:\MSDEV\LIB\LLIBCE.lib (chkstk.asm)
+               at offset 00130H 000CEH bytes from C:\MSDEV\LIB\LLIBCE.lib (fclose.c)
+               at offset 001FEH 00050H bytes from C:\MSDEV\LIB\LLIBCE.lib (fopen.c)
+               at offset 0024EH 00040H bytes from C:\MSDEV\LIB\LLIBCE.lib (fprintf.c)
+               at offset 0028EH 00044H bytes from C:\MSDEV\LIB\LLIBCE.lib (printf.c)
+               at offset 002D2H 0003CH bytes from C:\MSDEV\LIB\LLIBCE.lib (strcpy.asm)
+               at offset 0030EH 00029H bytes from C:\MSDEV\LIB\LLIBCE.lib (strcmp.asm)
+               at offset 00338H 00019H bytes from C:\MSDEV\LIB\LLIBCE.lib (strlen.asm)
+               at offset 00352H 00079H bytes from C:\MSDEV\LIB\LLIBCE.lib (fgets.asm)
+               at offset 003CCH 00032H bytes from C:\MSDEV\LIB\LLIBCE.lib (strchr.asm)
+               at offset 003FEH 00216H bytes from C:\MSDEV\LIB\LLIBCE.lib (qsort.asm)
+               at offset 00614H 0017CH bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0dat.asm)
+               at offset 00790H 00022H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0msg.asm)
+               at offset 007B2H 001A8H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\stdargv.asm)
+               at offset 0095AH 000A0H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\stdenvp.asm)
+               at offset 009FAH 00061H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\nmsghdr.asm)
+               at offset 00A5CH 00001H bytes from C:\MSDEV\LIB\LLIBCE.lib (farstub.asm)
+               at offset 00A5EH 0009CH bytes from C:\MSDEV\LIB\LLIBCE.lib (_filbuf.asm)
+               at offset 00AFAH 00037H bytes from C:\MSDEV\LIB\LLIBCE.lib (_freebuf.asm)
+               at offset 00B32H 0013CH bytes from C:\MSDEV\LIB\LLIBCE.lib (_open.c)
+               at offset 00C6EH 000C8H bytes from C:\MSDEV\LIB\LLIBCE.lib (_sftbuf.asm)
+               at offset 00D36H 0014CH bytes from C:\MSDEV\LIB\LLIBCE.lib (fflush.c)
+               at offset 00E82H 004FAH bytes from C:\MSDEV\LIB\LLIBCE.lib (output.asm)
+               at offset 0137CH 0004EH bytes from C:\MSDEV\LIB\LLIBCE.lib (stream.c)
+               at offset 013CAH 00020H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\close.asm)
+               at offset 013EAH 00014H bytes from C:\MSDEV\LIB\LLIBCE.lib (stackava.asm)
+               at offset 013FEH 000ACH bytes from C:\MSDEV\LIB\LLIBCE.lib (fmalloc.asm)
+               at offset 014AAH 00054H bytes from C:\MSDEV\LIB\LLIBCE.lib (strcat.asm)
+               at offset 014FEH 0001CH bytes from C:\MSDEV\LIB\LLIBCE.lib (itoa.asm)
+               at offset 0151AH 0000FH bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\unlink.asm)
+               at offset 0152AH 00006H bytes from C:\MSDEV\LIB\LLIBCE.lib (crt0fp.asm)
+               at offset 01530H 00024H bytes from C:\MSDEV\LIB\LLIBCE.lib (chksum.asm)
+               at offset 01554H 00025H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\stdalloc.asm)
+               at offset 0157AH 00055H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\dosret.asm)
+               at offset 015D0H 00016H bytes from C:\MSDEV\LIB\LLIBCE.lib (_cflush.asm)
+               at offset 015E6H 000EBH bytes from C:\MSDEV\LIB\LLIBCE.lib (_flsbuf.asm)
+               at offset 016D2H 0004BH bytes from C:\MSDEV\LIB\LLIBCE.lib (_getbuf.asm)
+               at offset 0171EH 001CCH bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\open.asm)
+               at offset 018EAH 000FEH bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\read.asm)
+               at offset 019E8H 0015FH bytes from C:\MSDEV\LIB\LLIBCE.lib (write.asm)
+               at offset 01B48H 0007CH bytes from C:\MSDEV\LIB\LLIBCE.lib (searchsg.asm)
+               at offset 01BC4H 00100H bytes from C:\MSDEV\LIB\LLIBCE.lib (growseg.asm)
+               at offset 01CC4H 00044H bytes from C:\MSDEV\LIB\LLIBCE.lib (newseg.asm)
+               at offset 01D08H 0005CH bytes from C:\MSDEV\LIB\LLIBCE.lib (commit.c)
+               at offset 01D64H 00063H bytes from C:\MSDEV\LIB\LLIBCE.lib (xtoa.asm)
+               at offset 01DC8H 00081H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\lseek.asm)
+               at offset 01E4AH 00034H bytes from C:\MSDEV\LIB\LLIBCE.lib (initseg.asm)
+               at offset 01E7EH 00036H bytes from C:\MSDEV\LIB\LLIBCE.lib (linkseg.asm)
+               at offset 01EB4H 00026H bytes from C:\MSDEV\LIB\LLIBCE.lib (closeall.c)
+               at offset 01EDAH 0000DH bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\d_commit.asm)
+
+ 02570H 02571H 00002H EMULATOR_TEXT          CODE 16-bit
+               at offset 00000H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0dat.asm)
+
+ 02572H 02572H 00000H C_ETEXT                ENDCODE 16-bit
+ 02580H 02580H 00000H EMULATOR_DATA          FAR_DATA 16-bit
+ 02580H 0789FH 05320H FAR_BSS                FAR_BSS 16-bit
+ 078A0H 078E1H 00042H NULL                   BEGDATA 16-bit
+               at offset 00000H 00042H bytes from C:\MSDEV\LIB\LLIBCE.lib (chksum.asm)
+
+ 078E2H 07FABH 006CAH _DATA                  DATA 16-bit
+               at offset 00000H 0029AH bytes from BUILD\LIBUTIL.obj (z:\mytools\libutil\src\libutil.c)
+               at offset 0029AH 00020H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0.asm)
+               at offset 002BAH 00006H bytes from C:\MSDEV\LIB\LLIBCE.lib (chkstk.asm)
+               at offset 002C0H 00004H bytes from C:\MSDEV\LIB\LLIBCE.lib (fclose.c)
+               at offset 002C4H 001E4H bytes from C:\MSDEV\LIB\LLIBCE.lib (_file.c)
+               at offset 004A8H 00101H bytes from C:\MSDEV\LIB\LLIBCE.lib (ctype.asm)
+               at offset 005AAH 00058H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0dat.asm)
+               at offset 00602H 00004H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0msg.asm)
+               at offset 00606H 00004H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\stdargv.asm)
+               at offset 0060AH 0000CH bytes from C:\MSDEV\LIB\LLIBCE.lib (_sftbuf.asm)
+               at offset 00616H 00061H bytes from C:\MSDEV\LIB\LLIBCE.lib (output.asm)
+               at offset 00678H 00004H bytes from C:\MSDEV\LIB\LLIBCE.lib (fmalloc.asm)
+               at offset 0067CH 00014H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\dosret.asm)
+               at offset 00690H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (_cflush.asm)
+               at offset 00692H 00001H bytes from C:\MSDEV\LIB\LLIBCE.lib (ncommode.asm)
+               at offset 00694H 0000EH bytes from C:\MSDEV\LIB\LLIBCE.lib (fdata.asm)
+               at offset 006A2H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (growseg.asm)
+               at offset 006A4H 00022H bytes from C:\MSDEV\LIB\LLIBCE.lib (cmiscdat.asm)
+               at offset 006C6H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (txtmode.asm)
+               at offset 006C8H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (seekfast.asm)
+
+ 07FACH 07FADH 00002H XIQC                   DATA 16-bit
+               at offset 00000H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0dat.asm)
+
+ 07FAEH 07FB9H 0000CH DBDATA                 DATA 16-bit
+               at offset 00000H 0000CH bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0.asm)
+
+ 07FBAH 07FC7H 0000EH CDATA                  DATA 16-bit
+               at offset 00000H 0000EH bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0dat.asm)
+
+ 07FC8H 07FC8H 00000H XIFB                   DATA 16-bit
+ 07FC8H 07FC8H 00000H XIF                    DATA 16-bit
+ 07FC8H 07FC8H 00000H XIFE                   DATA 16-bit
+ 07FC8H 07FC8H 00000H XIB                    DATA 16-bit
+ 07FC8H 07FC8H 00000H XI                     DATA 16-bit
+ 07FC8H 07FC8H 00000H XIE                    DATA 16-bit
+ 07FC8H 07FC8H 00000H XPB                    DATA 16-bit
+ 07FC8H 07FCBH 00004H XP                     DATA 16-bit
+               at offset 00000H 00004H bytes from C:\MSDEV\LIB\LLIBCE.lib (_cflush.asm)
+
+ 07FCCH 07FCCH 00000H XPE                    DATA 16-bit
+ 07FCCH 07FCCH 00000H XCB                    DATA 16-bit
+ 07FCCH 07FCCH 00000H XC                     DATA 16-bit
+ 07FCCH 07FCCH 00000H XCE                    DATA 16-bit
+ 07FCCH 07FCCH 00000H XCFB                   DATA 16-bit
+ 07FCCH 07FCCH 00000H XCFCRT                 DATA 16-bit
+ 07FCCH 07FCCH 00000H XCF                    DATA 16-bit
+ 07FCCH 07FCCH 00000H XCFE                   DATA 16-bit
+ 07FCCH 07FCCH 00000H XIFCB                  DATA 16-bit
+ 07FCCH 07FCCH 00000H XIFU                   DATA 16-bit
+ 07FCCH 07FCCH 00000H XIFL                   DATA 16-bit
+ 07FCCH 07FCCH 00000H XIFM                   DATA 16-bit
+ 07FCCH 07FCCH 00000H XIFCE                  DATA 16-bit
+ 07FCCH 07FD1H 00006H CONST                  CONST 16-bit
+               at offset 00000H 00006H bytes from BUILD\LIBUTIL.obj (z:\mytools\libutil\src\libutil.c)
+
+ 07FD2H 07FD9H 00008H HDR                    MSG 16-bit
+               at offset 00000H 00008H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\nmsghdr.asm)
+
+ 07FDAH 080AFH 000D6H MSG                    MSG 16-bit
+               at offset 00000H 00082H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0msg.asm)
+               at offset 00082H 0002FH bytes from C:\MSDEV\LIB\LLIBCE.lib (crt0fp.asm)
+               at offset 000B1H 00025H bytes from C:\MSDEV\LIB\LLIBCE.lib (chksum.asm)
+
+ 080B0H 080B1H 00002H PAD                    MSG 16-bit
+               at offset 00000H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0msg.asm)
+               at offset 00000H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\nmsghdr.asm)
+               at offset 00000H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (crt0fp.asm)
+               at offset 00000H 00002H bytes from C:\MSDEV\LIB\LLIBCE.lib (chksum.asm)
+
+ 080B2H 080B2H 00001H EPAD                   MSG 16-bit
+               at offset 00000H 00001H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\nmsghdr.asm)
+
+ 080B4H 080B4H 00000H _BSS                   BSS 16-bit
+ 080B4H 080B4H 00000H XOB                    BSS 16-bit
+ 080B4H 080B4H 00000H XO                     BSS 16-bit
+ 080B4H 080B4H 00000H XOE                    BSS 16-bit
+ 080B4H 080B4H 00000H XOFB                   BSS 16-bit
+ 080B4H 080B4H 00000H XOF                    BSS 16-bit
+ 080B4H 080B4H 00000H XOFE                   BSS 16-bit
+ 080C0H 080C0H 00000H c_common               BSS 16-bit
+ 080C0H 088BFH 00800H STACK                  STACK 16-bit
+               at offset 00000H 00800H bytes from C:\MSDEV\LIB\LLIBCE.lib (dos\crt0.asm)
+
+
+ Origin   Group
+ 078A:0   DGROUP
+
+  Address         Publics by Name
+
+ 0000:0000       _compare_modules
+ 078A:0814       _edata
+ 078A:0820       _end
+ 078A:0608       _errno
+ 0000:0D61       _exit
+ 0000:07B4       _fclose
+ 0000:13BA       _fflush
+ 0000:09D6       _fgets
+ 0000:08B6       _fopen
+ 0000:08D2       _fprintf
+ 0258:0000       _line
+ 0000:00B6       _main
+ 0258:0480       _modules
+ 078A:0042       _module_count
+ 0258:52A0       _out_filename
+ 0000:0912       _printf
+ 0000:0030       _print_usage
+ 0000:0A82       _qsort
+ 0000:1B9E       _remove
+ 078A:0300       _STKHQQ
+ 0000:1B2E       _strcat
+ 0000:0A50       _strchr
+ 0000:0992       _strcmp
+ 0000:0956       _strcpy
+ 0000:09BC       _strlen
+ 0258:0400       _target_lib
+ 078A:02FC       __aaltstkovr
+ 078A:05EC       __acfinfo
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:D6D6  Abs  __aDBdoswp
+ 078A:0644       __adbgmsg
+ 078A:02DE       __aexit_rtn
+ 0000:0790       __aFchkstk
+ 0000:1000  Abs  __AHINCR
+ 0000:000C  Abs  __AHSHIFT
+ 078A:05FA       __aintdiv
+ 078A:06E4       __amblksiz
+ 0000:0762       __amsg_exit
+ 078A:0042       __anullsize
+ 078A:02F6       __aseghi
+ 078A:02F8       __aseglo
+ 078A:02E0       __asizds
+ 078A:0706       __asizeC
+ 078A:0707       __asizeD
+ 0000:0684       __astart
+ 078A:02DC       __atopsp
+ 0000:0D70       __cexit
+ 078A:06E6       __cfltcvt_tab
+ 078A:06D2       __cflush
+ 078A:063B       __child
+ 0000:0790       __chkstk
+ 0000:0C98       __cinit
+ 0000:0753       __cintDIV
+ 0000:1A4E       __close
+ 0000:23E8       __cltoasub
+ 0000:238C       __commit
+ 078A:06D4       __commode
+ 078A:0613       __cpumode
+ 0000:0DE8       __ctermsub
+ 078A:04EA       __ctype
+ 078A:04EA       __ctype_
+ 0000:1F5D       __cXENIXtoDOSmode
+ 0000:23F5       __cxtoa
+ 0000:0D7A       __c_exit
+ 0000:078E       __dataseg
+ 078A:0614       __doserrno
+ 0000:1BFE       __dosret0
+ 0000:1C13       __dosretax
+ 0000:1C06       __dosreturn
+ 078A:0610       __dosvermajor
+ 078A:0611       __dosverminor
+ 0000:255E       __dos_commit
+ 078A:0814       __edata
+ 0000:2570       __EmDataSeg
+ 078A:0820       __end
+ 0000:1C54       __endstdio
+ 078A:0632       __environ
+ 0000:0D68       __exit
+ 078A:0643       __exitflag
+ 078A:05FE       __fac
+ 0000:10E0       __farstub
+ 0000:2538       __fcloseall
+ 078A:02FA       __fDosExt
+ 0000:1A82       __ffree
+ 0000:0E14       __FF_MSGBANNER
+ 078A:06D6       __fheap
+ 0000:10E2       __filbuf
+ 0000:2328       __findlast
+ 0000:1C6A       __flsbuf
+ 0000:1412       __flush
+ 0000:1492       __flushall
+ 0000:1A95       __fmalloc
+ 078A:0708       __fmode
+ 078A:071C       __fpinit
+ 0000:1BAE       __fptrap
+ 0000:117E       __freebuf
+ 0000:0882       __fsopen
+ 0000:1373       __ftbuf
+ 0000:1D56       __getbuf
+ 0000:1A00       __getstream
+ 0000:2248       __growseg
+ 0000:22D7       __incseg
+ 0000:24CE       __initseg
+ 078A:063E       __intno
+ 078A:0306       __iob
+ 078A:03F6       __iob2
+ 078A:0708       __iomode
+ 0000:1B82       __itoa
+ 078A:04E6       __lastiob
+ 0000:2502       __linkseg
+ 0000:244C       __lseek
+ 078A:070A       __lseekchk
+ 0000:1C20       __maperror
+ 0000:1BD8       __myalloc
+ 0000:2348       __newseg
+ 078A:0616       __nfile
+ 078A:02E2       __nheap_desc
+ 0000:107E       __NMSG_TEXT
+ 0000:10A9       __NMSG_WRITE
+ 0000:1BB4       __nullcheck
+ 0000:1DBC       __open
+ 0000:11B6       __openfile
+ 078A:0614       __oserr
+ 078A:0618       __osfile
+ 078A:0610       __osmajor
+ 078A:0611       __osminor
+ 078A:0612       __osmode
+ 078A:0610       __osversion
+ 0000:1516       __output
+ 078A:063D       __ovlflag
+ 078A:063F       __ovlvec
+ 078A:0636       __pgmptr
+ 078A:06BA       __pnhFarHeap
+ 078A:060E       __psp
+ 078A:060C       __pspadr
+ 0000:1F6E       __read
+ 0000:21CC       __searchseg
+ 0000:0E36       __setargv
+ 0000:0FDE       __setenvp
+ 078A:0704       __sigintoff
+ 078A:0702       __sigintseg
+ 0000:1DA2       __sopen
+ 0000:1A6E       __stackavail
+ 0000:12F2       __stbuf
+ 078A:060A       __umaskval
+ 0000:1B9E       __unlink
+ 0000:206C       __write
+ 078A:0714       ___aDBexit
+ 078A:0712       ___aDBrterr
+ 078A:0710       ___aDBswpchk
+ 078A:070E       ___aDBswpflg
+ 078A:062C       ___argc
+ 078A:062E       ___argv
+ 078A:070C       ___qczrinit
+
+  Address         Publics by Value
+
+ 0000:0000       _compare_modules
+ 0000:000C  Abs  __AHSHIFT
+ 0000:0030       _print_usage
+ 0000:00B6       _main
+ 0000:0684       __astart
+ 0000:0753       __cintDIV
+ 0000:0762       __amsg_exit
+ 0000:078E       __dataseg
+ 0000:0790       __chkstk
+ 0000:0790       __aFchkstk
+ 0000:07B4       _fclose
+ 0000:0882       __fsopen
+ 0000:08B6       _fopen
+ 0000:08D2       _fprintf
+ 0000:0912       _printf
+ 0000:0956       _strcpy
+ 0000:0992       _strcmp
+ 0000:09BC       _strlen
+ 0000:09D6       _fgets
+ 0000:0A50       _strchr
+ 0000:0A82       _qsort
+ 0000:0C98       __cinit
+ 0000:0D61       _exit
+ 0000:0D68       __exit
+ 0000:0D70       __cexit
+ 0000:0D7A       __c_exit
+ 0000:0DE8       __ctermsub
+ 0000:0E14       __FF_MSGBANNER
+ 0000:0E36       __setargv
+ 0000:0FDE       __setenvp
+ 0000:1000  Abs  __AHINCR
+ 0000:107E       __NMSG_TEXT
+ 0000:10A9       __NMSG_WRITE
+ 0000:10E0       __farstub
+ 0000:10E2       __filbuf
+ 0000:117E       __freebuf
+ 0000:11B6       __openfile
+ 0000:12F2       __stbuf
+ 0000:1373       __ftbuf
+ 0000:13BA       _fflush
+ 0000:1412       __flush
+ 0000:1492       __flushall
+ 0000:1516       __output
+ 0000:1A00       __getstream
+ 0000:1A4E       __close
+ 0000:1A6E       __stackavail
+ 0000:1A82       __ffree
+ 0000:1A95       __fmalloc
+ 0000:1B2E       _strcat
+ 0000:1B82       __itoa
+ 0000:1B9E       _remove
+ 0000:1B9E       __unlink
+ 0000:1BAE       __fptrap
+ 0000:1BB4       __nullcheck
+ 0000:1BD8       __myalloc
+ 0000:1BFE       __dosret0
+ 0000:1C06       __dosreturn
+ 0000:1C13       __dosretax
+ 0000:1C20       __maperror
+ 0000:1C54       __endstdio
+ 0000:1C6A       __flsbuf
+ 0000:1D56       __getbuf
+ 0000:1DA2       __sopen
+ 0000:1DBC       __open
+ 0000:1F5D       __cXENIXtoDOSmode
+ 0000:1F6E       __read
+ 0000:206C       __write
+ 0000:21CC       __searchseg
+ 0000:2248       __growseg
+ 0000:22D7       __incseg
+ 0000:2328       __findlast
+ 0000:2348       __newseg
+ 0000:238C       __commit
+ 0000:23E8       __cltoasub
+ 0000:23F5       __cxtoa
+ 0000:244C       __lseek
+ 0000:24CE       __initseg
+ 0000:2502       __linkseg
+ 0000:2538       __fcloseall
+ 0000:255E       __dos_commit
+ 0000:2570       __EmDataSeg
+ 0258:0000       _line
+ 0258:0400       _target_lib
+ 0258:0480       _modules
+ 0258:52A0       _out_filename
+ 078A:0042       __anullsize
+ 078A:0042       _module_count
+ 078A:02DC       __atopsp
+ 078A:02DE       __aexit_rtn
+ 078A:02E0       __asizds
+ 078A:02E2       __nheap_desc
+ 078A:02F6       __aseghi
+ 078A:02F8       __aseglo
+ 078A:02FA       __fDosExt
+ 078A:02FC       __aaltstkovr
+ 078A:0300       _STKHQQ
+ 078A:0306       __iob
+ 078A:03F6       __iob2
+ 078A:04E6       __lastiob
+ 078A:04EA       __ctype_
+ 078A:04EA       __ctype
+ 078A:05EC       __acfinfo
+ 078A:05FA       __aintdiv
+ 078A:05FE       __fac
+ 078A:0608       _errno
+ 078A:060A       __umaskval
+ 078A:060C       __pspadr
+ 078A:060E       __psp
+ 078A:0610       __dosvermajor
+ 078A:0610       __osversion
+ 078A:0610       __osmajor
+ 078A:0611       __dosverminor
+ 078A:0611       __osminor
+ 078A:0612       __osmode
+ 078A:0613       __cpumode
+ 078A:0614       __doserrno
+ 078A:0614       __oserr
+ 078A:0616       __nfile
+ 078A:0618       __osfile
+ 078A:062C       ___argc
+ 078A:062E       ___argv
+ 078A:0632       __environ
+ 078A:0636       __pgmptr
+ 078A:063B       __child
+ 078A:063D       __ovlflag
+ 078A:063E       __intno
+ 078A:063F       __ovlvec
+ 078A:0643       __exitflag
+ 078A:0644       __adbgmsg
+ 078A:06BA       __pnhFarHeap
+ 078A:06D2       __cflush
+ 078A:06D4       __commode
+ 078A:06D6       __fheap
+ 078A:06E4       __amblksiz
+ 078A:06E6       __cfltcvt_tab
+ 078A:0702       __sigintseg
+ 078A:0704       __sigintoff
+ 078A:0706       __asizeC
+ 078A:0707       __asizeD
+ 078A:0708       __fmode
+ 078A:0708       __iomode
+ 078A:070A       __lseekchk
+ 078A:070C       ___qczrinit
+ 078A:070E       ___aDBswpflg
+ 078A:0710       ___aDBswpchk
+ 078A:0712       ___aDBrterr
+ 078A:0714       ___aDBexit
+ 078A:071C       __fpinit
+ 078A:0814       __edata
+ 078A:0814       _edata
+ 078A:0820       _end
+ 078A:0820       __end
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:D6D6  Abs  __aDBdoswp
+
+Program entry point at 0000:0684
